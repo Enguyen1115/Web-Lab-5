@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from "axios";
+import './AlbumTable.css'
 
 class AlbumList extends Component {
 
@@ -49,7 +50,7 @@ class AlbumList extends Component {
                         <tbody>
                             {albums.map(album => (
                                 <tr key={album.id}>
-                                    <td>{album.albumId}</td>
+                                    <td>{album.id}</td>
                                     <td>{album.title}</td>
                                     <td><img src={album.thumbnailUrl} alt=""/></td>
                                     <td>

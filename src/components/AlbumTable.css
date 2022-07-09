@@ -1,0 +1,28 @@
+table {
+    /* border: 1px solid lightgrey; */
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+tr {
+    font-size: 15px;
+}
+
+tr:nth-child(2n) {
+    background-color: lightcyan;
+}
+
+td, th {
+    border: 1px solid lightgrey;
+}
+
+.delete:hover {
+    background: rgb(174, 234, 238);
+    background: radial-gradient(circle, rgba(174, 234, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
